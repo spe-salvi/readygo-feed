@@ -5,7 +5,7 @@ def parse_course_data(course_data):
     for course in course_data:
         courses_dict[course.get('id')] = {
             'course_code': course.get('course_code'),
-            'course_name': course.get('name')
+            'sis_course_id': course.get('sis_course_id'),
         }
     return courses_dict
 
