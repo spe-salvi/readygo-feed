@@ -17,3 +17,4 @@ HEADERS = {
     }
 
 TERM = 117
+SEARCH_TERM = '-OL-'
