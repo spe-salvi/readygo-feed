@@ -20,3 +20,5 @@ TERM = 117
 SEARCH_TERM = '-OL-'
 
 TEMPLATE_COLUMNS = ["sisCourseIds", "lmsCourseIds", "lmsUserIds", "sisUserIds", "customStartDate", "customEndDate"]
+
+NO_CANCELLED_COURSES = True
